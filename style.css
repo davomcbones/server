@@ -1,0 +1,194 @@
+/*Pastel green background for the page*/
+body {
+  background-image: url(https://www.colorhexa.com/3d3d3d.png);
+  padding: 20px;
+}
+
+/*Design of first heading*/
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/*Design of second heading*/
+h2 {
+  font-size: 30px;
+}
+
+/*Design of the "established" text above the company name*/
+.established {
+  font-style: italic;
+}
+
+/*To align all text to the center*/
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  text-align: center;
+}
+
+/*Yellow box for content in the page*/
+.BOX {
+  width: 80%;
+  background-color: #666666;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+
+/*Image section of about page*/
+.NOTBOX {
+  margin-bottom: 5px;
+  margin-Top: 5px;
+  text-align: center;
+  width: 90%;
+  background-color: #666666;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  height: 10%;
+}
+
+
+
+/*Borders to seperate the top section and main section of the website*/
+hr {
+  height: 2px;
+
+}
+
+/*Bottom border to seperate the content from the footer*/
+.bottom-line {
+  margin-top: 25px;
+}
+
+/*Our selected fonts*/
+h1, h2, h3, h4, h5, p, label {
+  font-family: Arial, serif;
+  color: #EBEBEB;
+}
+
+h1 {
+ font-style: italic;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+/*Store adress*/
+.address {
+  margin-bottom: 5px;
+}
+
+/*Top section buttons*/
+input[type="button"] {
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+/*Images in the top section of about page*/
+.welcomeboba {
+  display: inline-block;
+  width: 205px;
+  height: 205px;
+  max-width: 205px;
+  max-height: 205px;
+  margin: auto;
+}
+
+/*Contact form*/
+form {
+  border-color: #A7C7E7;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  min-height: 2em;
+}
+
+/*Elements inside the contact form*/
+.FORM_ELEMENTS,
+textarea,
+select {
+
+  width: 100%;
+}
+
+/*Contact form submit button*/
+.FORM_SUBMIT {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Center the buttons*/
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Images on the contact page */
+.CONTACT_IMAGES {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 100px;
+}
+
+/*image displayed on the menu */
+.menu_image {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.error_image {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 10px;
+}
+
+
+.easteregg {
+  
+  display: block;
+  width: 3%;
+}
+
+
+.starmenugif {
+  display: inline-block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.starmenugifbar {
+  display: inline-block;
+  margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset {
+border-width: 5px;
+  background-color: #BABABA;
+}
